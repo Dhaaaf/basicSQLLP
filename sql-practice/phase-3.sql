@@ -72,11 +72,11 @@
 -- set points = points + 6
 -- where name = "Ross";
 
--- 10
+-- -- 10
 -- INSERT INTO coffee_orders (is_redeemed)
 -- Values (0), (0), (0);
 
--- Update customers
+-- -- Update customers
 -- set points = points + 3
 -- where name = "Monica";
 
@@ -124,6 +124,33 @@
 -- 15
 -- Delete from customers
 -- where name = "Chandler";
+
+-- 16
+-- select points from customers
+-- where name = "Ross";
+
+-- INSERT INTO coffee_orders (is_redeemed)
+-- Values (0);
+
+-- Update customers
+-- set points = points + 1
+-- where name = "Ross";
+
+--17
+-- select points from customers
+-- where name = "Joey";
+
+-- Insert INTO coffee_orders (is_redeemed)
+-- Values (0);
+
+-- Update customers
+-- set points = points + 1
+-- where name = "Joey";
+
+-- 18
+-- Update customers
+-- set email = "p_as_in_phoebe@friends.show"
+-- where name = "Phoebe";
 
 -- select * from customers;
 -- select * from coffee_orders;
